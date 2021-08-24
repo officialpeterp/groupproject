@@ -1,73 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>PROJECT</title>
+    <head class="head">
+        <title>GROUP PROJECT</title>
+        <link href="style.css" rel="stylesheet">
     </head>
-    <body>
-        <h1>PROJECT</h1>
-        <h2><a href="https://usa.generation.org/">Generation</a></h2>
-        <p>This links to Generation.</p>
-        <h2><a href="https://codecademy.com/" target="_blank">Codecademy</a></h2>
-        <p>This links to Codecademy.</p>
+    <body class="body">
+        <h1 class="title">GROUP PROJECT</h1>
         <br>
+        <h2>This links to <a href="https://usa.generation.org/">Generation</a>.</h2>
+        <p>Join Generation USA it might change your life!</p>
+        <h2>This links to <a href="https://codecademy.com/" target="_blank">Codecademy</a>.</h2>
+        <p>Codecadmy is a great tuturial coding website!</p>
+        <br>
+
         <!--Table-->
-        <table>
+        <table class="table">
             <tr>
-                <th>DOGs</th>
-                <th>CATS</th>
+                <th>Column</th>
+                <th>Column</th>
             </tr>
             <tr>
                 <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
                 <td>2</td>
             </tr>
             <tr>
-                <td>1</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
+                <td>3</td>
+                <td>3</td>
             </tr>
             <tr>    
-                <td>1</td>
-                <td>2</td>
+                <td>4</td>
+                <td>4</td>
+            </tr>
+            <tr>    
+                <td>5</td>
+                <td>5</td>
             </tr>
         </table>
         <br>
+
         <!--Form-->
-        <form>
+        <form class="form">
             <label for="login">Login</label>
-            <input type="text" name="login" id="login">
+            <input type="text" required name="login" id="login">
             <br>
             <label for="password">Password</label>
-            <input type="text" name="password" id="password">
+            <input type="text" required name="password" id="password">
+            <br>
+            <button type="button" required>Submit</button>
             <br><br>
             <label for="number">Number</label>
             <input type="number" name="number" id="number">
             <br><br>
             <select name="rental-option">
-                <option value="small">Small</option>
-                <option value="family">Family Sedan</option>
-                <option value="lux">Luxury</option>
-                <option value="dog">Dog</option>
-                <option value="cat">Cat</option>
+                <option value="one">One</option>
+                <option value="two">Two</option>
+                <option value="three">Three</option>
+                <option value="four">Four</option>
+                <option value="five">Five</option>
             </select>
         </form>
+
         <!--Nav-->
         <nav>
-            <ul class="nav">
+            <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
                 <li><a href="#footer">Footer</a></li>
             </ul>
         </nav>
+
         <!--Figure-->
-        <figure>
+        <figure class="figure">
             <img src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg">
-            <figcaption>Doggo!</figcaption>
+            <figcaption>Doggo!<br><a href="about.html">More Doggos</a>!</figcaption>
         </figure>
+
         <!--Footer-->
-        <footer id="footer">
+        <footer class="footer" id="footer">
         By: Perom, Henok, Miss Jane, Alexandra, Anthony
         </footer>
     </body>

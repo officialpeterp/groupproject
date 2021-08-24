@@ -1,0 +1,20 @@
+* {
+    font-family: Georgia;
+}
+
+.title {
+    background-image: url("https://media.istockphoto.com/photos/various-dogs-horizontal-web-banner-picture-id926026268?k=6&m=926026268&s=170667a&w=0&h=4FNOJ30QVHVTXkaLq9OxFdS5CJ6_UXmc81KCXTcfxdw=");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 675px;
+    height: 250px;
+}
+
+.table {
+    border: 1px solid black;
+}
+
+.footer {
+    border: 1px solid black;
+    width: 360px;
+}
